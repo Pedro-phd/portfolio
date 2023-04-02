@@ -68,7 +68,7 @@ export default function MenuMobile() {
                         </div>
                       </a>
                     ))}
-                    <a href='https://drive.google.com/file/d/1YlgWCsov8x07-curbeYsnp5uVZnBveo9/view' target='_blank' className="font-bold font-titillium text-red-500 bg-[rgba(255,255,255,0.1)] rounded-lg h-10 w-[200px] inline-flex items-center p-4 gap-2 cursor-pointer group border-2 border-[rgba(255,255,255,0.1)]">
+                    <a href='https://drive.google.com/file/d/1YlgWCsov8x07-curbeYsnp5uVZnBveo9/view' target='_blank' className="justify-center font-bold font-titillium text-red-500 bg-[rgba(255,255,255,0.1)] rounded-lg h-10 w-[200px] inline-flex items-center p-4 gap-4 cursor-pointer group border-2 border-[rgba(255,255,255,0.1)]">
                       <BsDownload className="text-white" />
                       <span className="text-white">Download CV</span>
                     </a>
