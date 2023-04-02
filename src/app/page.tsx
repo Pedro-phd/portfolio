@@ -37,7 +37,7 @@ export default function Home() {
         <h1 className='text-6xl font-titillium font-bold text-white text-center underline decoration-red-500'>Sobre mim!</h1>
         <div className='lg:w-2/3 m-auto mt-8'>
           <FaQuoteLeft className='text-white w-28 h-28 float-left mr-3' />
-          <p className='text-white italic text-xl mb-3'>Com mais de 4 anos de experiência como desenvolvedor de software, sou um especialista frontend com habilidades focadas em Javascript. Meu compromisso em fornecer soluções inovadoras e eficientes é combinado com uma forte capacidade de resiliência, permitindo-me enfrentar desafios complexos com confiança e perseverança.</p>
+          <p className='text-white italic text-xl mb-3'>Com mais de 3 anos de experiência como desenvolvedor de software, sou um especialista frontend com habilidades focadas em Javascript. Meu compromisso em fornecer soluções inovadoras e eficientes é combinado com uma forte capacidade de resiliência, permitindo-me enfrentar desafios complexos com confiança e perseverança.</p>
           <p className='text-white italic text-xl mb-3'>Ao longo da minha carreira, tenho desenvolvido soluções de software que agregam valor e melhoram a experiência do usuário. Sempre mantenho-me atualizado com as mais recentes tecnologias do setor, o que me permite oferecer soluções práticas e sustentáveis para as necessidades de meus clientes.</p>
           <p className='text-white italic text-xl'>Com habilidades em colaboração, sou um profissional comprometido em trabalhar em equipe para atingir objetivos comuns. Estou sempre disposto a aprender e aprimorar minhas habilidades para fornecer soluções de qualidade que superem as expectativas dos clientes.</p>
         </div>
