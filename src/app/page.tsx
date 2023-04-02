@@ -1,7 +1,7 @@
 import Dzarm from '@/components/logos/Dzarm';
-import Kenlo from '@/components/logos/Dzarm copy';
+import Kenlo from '@/components/logos/Kenlo';
 import Hering from '@/components/logos/Hering';
-import Samsung from '@/components/logos/samsung';
+import Samsung from '@/components/logos/Samsung';
 import { BsArrowBarDown } from 'react-icons/bs'
 import { SiReact } from 'react-icons/si'
 import Typescript from '@/components/logos/Typescript';
