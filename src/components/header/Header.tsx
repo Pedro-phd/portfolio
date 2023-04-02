@@ -15,10 +15,6 @@ const Header = () => {
       </div>
       <div className="flex w-fit md:hidden">
         <MenuMobile />
-        <a href='https://drive.google.com/file/d/1YlgWCsov8x07-curbeYsnp5uVZnBveo9/view' target='_blank' className="font-bold font-titillium text-red-500 bg-[rgba(255,68,68,0.1)] rounded-lg h-10 inline-flex items-center p-4 gap-2 cursor-pointer group border-2 border-[rgba(255,68,68,0.1)] hover:border-[rgba(255,68,68,0.5)] transition-all delay-150 ease-in-out hover:animation-pulse">
-          <BsDownload className="text-red-500 group-hover:text-red-400 group-hover:animate-pulse transition-all ease-in-out delay-75" />
-          <span className="text-red-500 group-hover:text-red-400 group-hover:animate-pulse transition-all ease-in-out delay-75">Download CV</span>
-        </a>
       </div>
       <div className="gap-4 p-2 py-1 hidden md:flex">
         <a

@@ -1,6 +1,7 @@
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Fragment } from 'react'
+import { BsDownload } from 'react-icons/bs';
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const solutions = [
@@ -32,7 +33,7 @@ export default function MenuMobile() {
                 ${open ? '' : 'text-opacity-90'}
                 group inline-flex items-center rounded-md outline-none px-3 py-2 text-base font-bold text-white hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 font-titillium`}
             >
-              <span>Mídias Sociais</span>
+              <span>Menu</span>
               <ChevronDownIcon
                 className={`${open ? '' : 'text-opacity-70'}
                   ml-2 h-5 w-5 text-red-500 transition duration-150 ease-in-out group-hover:text-opacity-80`}
@@ -48,7 +49,7 @@ export default function MenuMobile() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-fit -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl">
+              <Popover.Panel className="absolute left-[-20px] z-10 mt-3 w-fit -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl">
                 <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                   <div className="relative grid gap-8 bg-red-600 p-4 lg:grid-cols-2 shadow-md">
                     {solutions.map((item) => (
@@ -67,9 +68,14 @@ export default function MenuMobile() {
                         </div>
                       </a>
                     ))}
+                    <a href='https://drive.google.com/file/d/1YlgWCsov8x07-curbeYsnp5uVZnBveo9/view' target='_blank' className="font-bold font-titillium text-red-500 bg-[rgba(255,255,255,0.1)] rounded-lg h-10 w-[200px] inline-flex items-center p-4 gap-2 cursor-pointer group border-2 border-[rgba(255,255,255,0.1)]">
+                      <BsDownload className="text-white" />
+                      <span className="text-white">Download CV</span>
+                    </a>
                   </div>
                 </div>
               </Popover.Panel>
+
             </Transition>
           </>
         )}
