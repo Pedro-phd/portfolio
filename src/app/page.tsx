@@ -33,7 +33,7 @@ export default function Home() {
           <BsArrowBarDown className='text-white animate-bounce w-6 h-6 mt-2 delay-500' width={32} height={32} />
         </div>
       </div>
-      <div id="about" className='h-screen flex w-full px-8 md:px-20 flex-col mt-16'>
+      <div id="about" className='flex w-full px-8 md:px-20 flex-col mt-16'>
         <h1 className='text-6xl font-titillium font-bold text-white text-center underline decoration-red-500'>Sobre mim!</h1>
         <div className='lg:w-2/3 m-auto mt-8'>
           <FaQuoteLeft className='text-white w-28 h-28 float-left mr-3' />
